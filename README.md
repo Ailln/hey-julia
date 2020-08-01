@@ -49,7 +49,7 @@ $ source ~/.bashrc
 
 ## 2 Hey
 
-在终端中直接输入 `julia` 命令，进入 REPL 中。　
+在终端中直接输入 `julia` 命令，进入 REPL 中。
 
 ```julia
 julia> println("hey julia")
@@ -68,7 +68,23 @@ hey julia
 hey julia
 ```
 
+## 3 开发库
+
+```julia
+# 进入 Pkg REPL
+julia> ]
+
+# 生成一个名为 cn2an 的项目
+pkg> generate cn2an
+ Generating  project cn2an:
+    cn2an/Project.toml
+    cn2an/src/cn2an.jl
+```
+
+> TODO
+
 ## 参考
 
 - [什么是REPL？ - Ailln的回答 - 知乎](https://www.zhihu.com/question/53865469/answer/800624678)
 - [Julia 中文文档](https://docs.juliacn.com/latest/)
+- [Julia#设置国内浙大，中科大镜像站](https://blog.csdn.net/qq_38063935/article/details/84971513)
