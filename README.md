@@ -2,6 +2,8 @@
 
 `Julia` 语言入门。
 
+> 🎵 [The Beatles - Hey Jude](https://www.youtube.com/watch?v=A_MjCqQoLLA)
+
 ## 1 安装
 
 ### Mac OS
@@ -74,16 +76,18 @@ hey julia
 # 进入 Pkg REPL
 julia> ]
 
-# 生成一个名为 cn2an 的项目
-pkg> generate cn2an
- Generating  project cn2an:
-    cn2an/Project.toml
-    cn2an/src/cn2an.jl
+# 生成一个名为 Cn2An 的项目
+pkg> generate Cn2An
+ Generating  project Cn2An:
+    Cn2An/Project.toml
+    Cn2An/src/Cn2An.jl
 ```
 
-> TODO
+## 3 交流
 
-## 参考
+欢迎添加微信号：`Ailln_`，备注「Julia」，我邀请你进入交流群。
+
+## 4 参考
 
 - [什么是REPL？ - Ailln的回答 - 知乎](https://www.zhihu.com/question/53865469/answer/800624678)
 - [Julia 中文文档](https://docs.juliacn.com/latest/)
