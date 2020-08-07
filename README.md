@@ -70,24 +70,43 @@ hey julia
 hey julia
 ```
 
-## 3 开发库
+## 3 REPL
+
+### 4 种交互模式
 
 ```julia
-# 进入 Pkg REPL
-julia> ]
+# 在 shell 中输入 julia 进入默认的 julia 模式，按 Ctrl+D 退出
+# 执行 julia 代码
+julia>
 
-# 生成一个名为 Cn2An 的项目
-pkg> generate Cn2An
- Generating  project Cn2An:
-    Cn2An/Project.toml
-    Cn2An/src/Cn2An.jl
+# 输入 ] 进入 Pkg 模式，按 Ctrl+C 退出
+# 管理程序包
+julia> ]
+pkg>
+
+# 输入 ; 进入 shell 模式，执行一次命令后自动退出
+# 执行普通的 shell 命令
+julia> ;
+shell>
+
+# 输入 ? 进入 help 模式，按 Ctrl+C 退出
+# 查询 julia 语言的帮助文档
+julia> ?
+help?>
 ```
 
-## 3 交流
+## 4 Julia 和 Python 的比较
+
+- Julia 的任何结构代码后要加 end，类似于 Ruby；
+- Julia 的 return 可以省略；
+- Julia 可以使用 const 定义常量，但依然可以修改；
+- Julia 区分字符和字符串，分别为 Char 和 String 类型；
+
+## 5 交流
 
 欢迎添加微信号：`Ailln_`，备注「Julia」，我邀请你进入交流群。
 
-## 4 参考
+## 6 参考
 
 - [什么是REPL？ - Ailln的回答 - 知乎](https://www.zhihu.com/question/53865469/answer/800624678)
 - [Julia 中文文档](https://docs.juliacn.com/latest/)
